@@ -1,0 +1,229 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anugraheethmohanan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/am.svg">
+    <script src="https://kit.fontawesome.com/29710882cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/am.svg" class="logo">
+                <ul id="menu"> 
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="text">
+                <h1>Hi, I'm <span>Anugraheeth</span> <br> Mohanan </h1>
+                <p class="typewriter-text"></p>
+            </div>
+        </div>
+    </div>
+   <!------------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <img src="images/pose1.png" class="image">
+                </div>
+                <div class="right">
+                    <h1 class="sub">About Me</h1>
+                    <p>
+                        I'm currently pursuing a B.Tech in Computer Science and am passionate about UI/UX design, graphics design, as well as web and app development. I enjoy diving deeper into these fields, constantly experimenting with new technologies, and refining my skills to create engaging and user-friendly digital experiences.
+                    </p>
+                    <div class="tabs">
+                        <p class="links active" onclick="opentab('skills')">Skills</p>
+                        <p class="links" onclick="opentab('experience')">Experience In</p>
+                        <p class="links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontent active" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                            <li><span>Graphic Design</span><br>Creative designs</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontent" id="experience">
+                        <ul>
+                            <li><span>Frontend</span><br>HTML5, CSS3, JavaScript, ThreeJS, React</li>
+                            <li><span>Backend</span><br>Node.JS, PHP, Express.JS</li>
+                            <li><span>Programming Languages</span><br>Python, Java, C</li>
+                            <li><span>Databases</span><br>MySQL, MongoDB</li>
+                            <li><span>Other</span><br>Computer Vision, ML, AI </li>
+                        </ul>
+                    </div>
+                    <div class="tabcontent" id="education">
+                        <ul>
+                            <li><span>Current</span><br>B.Tech in Computer Science (Final Year Student)</li>
+                            <li><span>2020</span><br>High School </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------Services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="servicelist">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I craft intuitive and visually stunning designs that put the user first. My focus is on creating seamless and enjoyable experiences by blending aesthetic appeal with functionality. From wireframes to prototypes, I ensure every detail enhances user interaction.<br>
+                        <a href="#contact">Learn more</a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>
+                        I develop modern, high-performance websites tailored to your brand’s needs. Whether it's a landing page, portfolio, or fully-fledged web application, I ensure your site is optimized for speed, scalability, and SEO.
+<br>
+                        <a href="#contact">Learn more</a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>
+                        I build sleek, user-friendly mobile applications with a focus on high performance and engaging experiences. Whether you need an iOS or Android app, my development process ensures reliability, scalability, and easy maintainability.<br>
+                        <a href="#contact">Learn more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/Schedulo.png" alt="">
+                    <div class="layer">
+                        <h3 > Schedulo </h3>
+                        <p>A Role-Based Access Control System for Managing and Scheduling Classes for Teachers</p>
+                        <a href="https://rbac-frontend-bu6e.onrender.com"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>Schedulo - React, Node, MongoDB, Axios, Redux</h3>
+                </div>
+                <div class="work">
+                    <img src="images/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Grademaster</h3>
+                        <p>The web application enables easy report management and verification of students.</p>
+                        <h2>Suspended For Inactivity</h2>
+                        <a href="https://grademaster.great-site.net/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>Grademaster - HTML, CSS, MySQL, JS</h3>
+                </div>
+                <div class="work">
+                    <img src="images/Visualizer.gif" alt="">
+                    <div class="layer">
+                        <h3> Sorting Visualizer </h3>
+                        <p>A dynamic web application built with React that visualizes sorting algorithms in real-time.</p>
+                        <a href="https://anugraheeth.github.io/Simply-Visualizer/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>Sorting Visualizer - React</h3>
+                </div>
+            </div>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/Resume.png" alt="">
+                    <div class="layer">
+                        <h3 style="margin-top: 20px;"> SimplyResume </h3>
+                        <p>SimplyResume is a simple, interactive web-based resume builder (using Frontend only).</p>
+                        <a href="https://anugraheeth.github.io/Resume-Builder/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>SimplyResume - HTML, CSS, JS</h3>
+                </div>
+                <div class="work">
+                    <img src="images/weather.png" alt="">
+                    <div class="layer">
+                        <h3>SimplyWeather</h3>
+                        <p>SimplyWeather is a web application that allows users to search for weather information by city name.</p>
+                        <a href="https://anugraheeth.github.io/WeatherApp/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>SimplyWeather - HTML, CSS, JS</h3>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png" alt="">
+                    <div class="layer">
+                        <h3> Type Ninja </h3>
+                        <p>A Simple JavaScript Game to test your typing speed.</p>
+                        <a href="https://anugraheeth.github.io/TypingGame/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>Type Ninja - HTML, CSS, JS</h3>
+                </div>
+            </div>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/Landing Page.png" alt="">
+                    <div class="layer">
+                        <h3 style="margin-top: 20px;"> Blip </h3>
+                        <p>A Real-time Chat application using react nodejs and socket io</p>
+                        <h1>Coming Soon</h1>
+                    </div>
+                    <h3>Blip - React, Node, MongoDB, Socketio</h3>
+                </div>
+                <div class="work" style="background-size: contain;">
+                    <img src="images/hasthadhi.png" alt="" >
+                    <div class="layer">
+                        <h3 style="margin-top: 20px;"> Hasthadhi </h3>
+                        <p>Redesigned and convert website to React & Node (Kidangoor Gram  Panchayath Project).</p>
+                        <h1>In Progress</h1>
+                    </div>
+                    <h3>Hasthadhi - React, Node</h3>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+<!-- ---------contacts------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="cleft">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anugraheethmohan@icloud.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 80787831204</p>
+                    <a href="assets/Anugraheeth_Resume.pdf"Download class="btn btn2">Download CV</a>
+                    <div class="media">
+                        <a href="https://linkedin.com/in/anugraheethmohanan"><i class="fa-brands fa-linkedin"></i></a>   
+                        <a href="https://github.com/anugraheeth"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/anugraheethmohanan/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="cright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn bt2"> Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright" aria-hidden="true"></i> All Rights Reserved | Anugraheeth Mohanan</p>
+        </div>
+    </div>
+    <script>
+        
+      </script>
+    <script src="function.js"></script>
+</body>
+</html>
